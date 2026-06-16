@@ -42,7 +42,7 @@ class _RulesAndRecommendationsScreenState
 
     "No Illegal items/Criminal items or Illegal Actions/Behavior will be tolerated.",
 
-    "\"UberforBoats\" is not Liable for Negligence or Incompetence on the Boat Owner/Client/Customer's Part.",
+    "\"FlutterBaseApp\" is not Liable for Negligence or Incompetence on the Boat Owner/Client/Customer's Part.",
 
     "Each Delivery Order Request Must be Minimum \$100 per Order.",
 

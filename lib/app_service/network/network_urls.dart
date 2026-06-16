@@ -1,7 +1,7 @@
 class NetworkUrl {
   NetworkUrl._();
   // baseUrl
-  static const String baseUrl = "https://productionapi.uberforboats.com";
+  static const String baseUrl = "https://productionapi.FlutterBaseApp.com";
 
   //Auth
   static const String login = '/v1/user/login';

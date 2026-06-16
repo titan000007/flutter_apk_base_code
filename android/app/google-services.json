@@ -48,7 +48,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:557239244192:android:e384b0f8a9715bf98500c5",
         "android_client_info": {
-          "package_name": "com.uberforboats.customer"
+          "package_name": "com.FlutterBaseApp.customer"
         }
       },
       "oauth_client": [],

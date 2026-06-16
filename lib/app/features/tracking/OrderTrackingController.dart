@@ -149,7 +149,7 @@ class CustomerTrackingController extends GetxController {
 
   void connectSocket() {
     socket = IO.io(
-      "ws://productionapi.uberforboats.com",
+      "ws://productionapi.FlutterBaseApp.com",
       IO.OptionBuilder()
           .setTransports(['websocket'])
           .setQuery({'userId': activeOrderData.userId})

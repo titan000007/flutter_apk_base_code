@@ -1,5 +1,5 @@
 class AppString {
-  static const String appName = "UberforBoats";
+  static const String appName = "FlutterBaseApp";
   static const String somethingWentWrong = "Something went wrong";
   static const String logIn = "Login";
   static const String enter = "Enter";
@@ -16,7 +16,7 @@ class AppString {
   static const String enterYourFullName = "Enter your full name";
   static const String enableGpsLocation = "Enable GPS Location";
   static const String enableGpsLocationHintText =
-      " UberforBoats requires your phone's GPS to be turned on at all times to locate your vessel and dispatch deliveries safely.";
+      " FlutterBaseApp requires your phone's GPS to be turned on at all times to locate your vessel and dispatch deliveries safely.";
   static const String pleaseEnterValidEmail = "Please Enter Valid Email";
   static const String yourLocationIsOnlySharedText =
       "Your location is only shared with the assigned delivery operator while an order is active.";
@@ -41,7 +41,7 @@ class AppString {
   static const String signInToContinue = "Sign in to continue";
   static const String weWillSendLink =
       "We’ll send a verification link to your email";
-  static const String uberForBoats = "UberforBoats";
+  static const String FlutterBaseApp = "FlutterBaseApp";
   static const String hello = "Hello";
   static const String createOrder = "Create Order";
   static const String newOrder = "New Order";
@@ -171,11 +171,11 @@ class AppString {
   static const String activeOrders = 'Active Orders';
   static const String forgotPassword = 'Forgot Password';
 
-  static const String uberBoatsPrivacyPolicy = 'UberforBoats Privacy Policy';
+  static const String uberBoatsPrivacyPolicy = 'FlutterBaseApp Privacy Policy';
   static const String uberBoatsTermsAndConditions =
-      'UberforBoats Terms & Conditions';
+      'FlutterBaseApp Terms & Conditions';
   static const String uberBoatsEmpirePrivacyCommittedInformation =
-      'UberforBoats / Kingnetic Empire LLC values your privacy ""and is committed to protecting your information.';
+      'FlutterBaseApp / Kingnetic Empire LLC values your privacy ""and is committed to protecting your information.';
   static const String informationWeCollect = '1. Information We Collect';
   static const String gpsAndTracking = '2. GPS & Tracking';
   static const String threePaymentsText = '3. Payments';
@@ -199,7 +199,7 @@ class AppString {
       "delivery verification, and platform safety.";
 
   static const String uberBoatsNotResponsibleWhetherConditionsText =
-      "UberforBoats is not responsible for delays caused "
+      "FlutterBaseApp is not responsible for delays caused "
       "by weather conditions, GPS interruptions, or "
       "third-party merchant issues.";
 
@@ -208,7 +208,7 @@ class AppString {
       "for customers and drivers while using the app.";
 
   static const String uberBoatsProvidesOffShoreFoodItemUsingText =
-      "UberforBoats provides offshore delivery services "
+      "FlutterBaseApp provides offshore delivery services "
       "for food, groceries, medicines, fuel, and "
       "essential items using Drone and Jetski delivery.";
 
@@ -236,7 +236,7 @@ class AppString {
   static const String preventFraudAndAbuse = 'Prevent fraud and abuse';
   static const String paymentRelatedInformation = 'Payment-related information';
   static const String customerServiceGmailId =
-      'Customerservice@UberforBoats.com';
+      'Customerservice@FlutterBaseApp.com';
   static const String thisPrivacyPolicyGovernedByLaw =
       'This Privacy Policy is governed by the laws of Maryland, USA.';
   static const String paymentsAreSecurelyProcessedThroughProviders =
@@ -249,7 +249,7 @@ class AppString {
       "Users may request account deletion or data access "
       "by contacting support.";
   static const String welcomeBoatsEmpireByUsingApplicationServicesAgreeText =
-      "Welcome to UberforBoats / Kingnetic Empire LLC. "
+      "Welcome to FlutterBaseApp / Kingnetic Empire LLC. "
       "By using our application and services, you agree "
       "to these Terms & Conditions.";
 }

@@ -76,7 +76,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Text(
-                                    AppString.uberForBoats,
+                                    AppString.FlutterBaseApp,
                                     style: TextStyle(
                                       color: AppColor.whiteColor,
                                       fontWeight: FontWeight.w600,
