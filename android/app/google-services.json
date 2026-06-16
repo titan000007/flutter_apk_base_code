@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "557239244192",
+    "firebase_url": "https://uber-for-boats-default-rtdb.firebaseio.com",
+    "project_id": "uber-for-boats",
+    "storage_bucket": "uber-for-boats.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557239244192:android:7418553fd5ba1c418500c5",
+        "android_client_info": {
+          "package_name": "com.app.uber_boats_customer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo__23qGzNfDkEHiovEtkgEgJb5Lkw4wY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557239244192:android:c7a6e99d321a22428500c5",
+        "android_client_info": {
+          "package_name": "com.app.uber_boats_worker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo__23qGzNfDkEHiovEtkgEgJb5Lkw4wY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557239244192:android:e384b0f8a9715bf98500c5",
+        "android_client_info": {
+          "package_name": "com.uberforboats.customer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo__23qGzNfDkEHiovEtkgEgJb5Lkw4wY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

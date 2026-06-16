@@ -1,0 +1,132 @@
+name: uber_boats_customer
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# Flutter Project Created With Flutter V 3.41.4 & dart sdk sdk: ^3.11.1
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.1
+
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.2.1
+  shimmer: ^3.0.0
+  get: ^4.7.3
+  dio: ^5.9.2
+  geolocator: ^14.0.2
+  shared_preferences: ^2.5.4
+  intl: ^0.20.2
+  connectivity_plus: ^7.0.0
+  fluttertoast: ^9.0.0
+  url_launcher: ^6.3.2
+  image_picker: ^1.2.1
+  cached_network_image: ^3.4.1
+  pinput: ^6.0.2
+  carousel_slider: ^5.1.2
+  flutter_native_splash: ^2.4.7
+  dotted_border: ^3.1.0
+  file_picker: ^11.0.2
+  google_maps_flutter: ^2.17.0
+  socket_io_client:
+  location: ^8.0.1
+  permission_handler: ^12.0.1
+  firebase_core: ^4.9.0
+  firebase_messaging:
+  flutter_local_notifications:
+  cloud_firestore: ^6.4.1
+  firebase_storage:
+  googleapis_auth: ^2.3.1
+  flutter_stripe: ^12.1.1
+  flutter_credit_card: ^4.1.0
+  webview_flutter: ^4.13.1
+  gif: ^2.3.0
+#  lottie: ^3.3.2
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # The "flutter_lints" package below contains a set of recommended lints to
+  flutter_lints: ^6.0.0
+
+
+# The following section is specific to Flutter packages.
+flutter:
+  # To add assets to your application, add an assets section, like this:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/inter/inter_font.ttf
+        - asset: assets/fonts/inter/InterDisplay-Bold.ttf
+        - asset: assets/fonts/inter/InterDisplay-Medium.ttf
+        - asset: assets/fonts/inter/InterDisplay-SemiBold.ttf
+
+# ============================================
+# FLUTTER NATIVE SPLASH CONFIGURATION
+# ============================================
+flutter_native_splash:
+  # ============================================
+  # COMMON SETTINGS
+  # ============================================
+
+  # Black background for all platforms
+  color: "#000000"
+
+  # Hide notification bar on Android
+  fullscreen: true
+
+  # ============================================
+  # ANDROID SETTINGS (Pre-Android 12)
+  # ============================================
+
+  # Use square image for Android to prevent stretching
+  image: assets/logo/logo_native_splash_android.png
+
+  # Center alignment
+  android_gravity: center
+
+
+  # ============================================
+  # iOS SETTINGS
+  # ============================================
+
+  # Use your current image (works perfectly)
+  image_ios: assets/logo/logo_native_splash.png
+
+  # Center alignment
+  ios_content_mode: center
+
+  # ============================================
+  # ANDROID 12+ SETTINGS
+  # ============================================
+
+  android_12:
+    # Black background
+    color: "#000000"
+
+    # Use square image
+    image: assets/logo/logo_native_splash_android.png
+
+    # Black background behind icon
+    icon_background_color: "#000000"
+
+    # Branding image (optional - shows at bottom)
+    # branding: assets/logo/logo_native_splash_android.png
+
+  # ============================================
+  # WEB SETTINGS (Optional)
+  # ============================================
+
+  color_web: "#000000"
+  image_web: assets/logo/logo_native_splash.png
+  web_image_mode: center
